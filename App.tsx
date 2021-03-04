@@ -17,7 +17,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import SignUp from './src/containers/signUpPage/signUp';
 import NRPage1 from './src/containers/neckRotation/NRPage1';
-import NRPage2 from './src/containers/neckRotation/NRPage2';
 
 import {
   SafeAreaView,
@@ -55,7 +54,6 @@ const App = () => {
           component={NRPage1}
           options={{ title: 'Welcome' }}
         />
-        <Stack.Screen name="step2" component={NRPage2} />
        
     </Stack.Navigator>
     </NavigationContainer>
